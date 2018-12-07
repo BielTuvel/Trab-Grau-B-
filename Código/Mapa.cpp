@@ -2,6 +2,7 @@
 
 Mapa::Mapa()
 {
+	//Desenhando o mapa do jogo na posição correta
 	x = 300;
 	y = 230;
 }

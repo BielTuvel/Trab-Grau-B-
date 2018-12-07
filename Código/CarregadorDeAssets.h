@@ -17,5 +17,6 @@ private:
 
 	int numAssets;
 	fstream mapaAssets;
+	
 };
 

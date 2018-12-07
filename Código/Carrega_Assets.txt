@@ -1,5 +1,20 @@
-4
+9
 sprite_sheet  Mapa assets/mapa/anal.png 1 1
 sprite_sheet  Nave assets/spritesheets/char.png 1 3
 sprite_sheet  tiro assets/spritesheets/bullet.png 1 1
-sprite_sheet  Inimigo1 assets/spritesheets/Inimigo.png 1 1
+sprite_sheet  Inimigo1 assets/spritesheets/Inimigo2.png 1 1
+sprite_sheet  fundoMenu assets/mapa/anal.png 1 1
+sprite_sheet  logo assets/mapa/logo.png 1 1
+sprite_sheet  start assets/spritesheets/botoes/novoJogo.png 1 1
+sprite_sheet  carregar assets/spritesheets/botoes/carregarJogo.png 1 1
+sprite_sheet  ranking assets/spritesheets/botoes/ranking.png 1 1
+sprite_sheet  creditos assets/spritesheets/botoes/creditos.png 1 1
+sprite_sheet  sair assets/spritesheets/botoes/sair.png 1 1
+sprite_sheet  cadastrar assets/spritesheets/botoes/cadastrarse.png 1 1
+sprite_sheet  logar assets/spritesheets/botoes/fazerLogin.png 1 1  
+sprite_sheet  powerUp assets/spritesheets/PowerUpzin.png 1 1
+sprite_sheet  Desabilita assets/spritesheets/DesabilitaPower.png 1 1
+sprite_sheet  Boss assets/spritesheets/Boss.png 1 1
+sprite_sheet  CampoUser assets/spritesheets/botoes/campoUsername.png 1 1
+sprite_sheet  CampoSenha assets/spritesheets/botoes/campoSenha.png 1 1
+sprite_sheet  CampoConfSenha assets/spritesheets/botoes/campoConfSenha.png 1 1

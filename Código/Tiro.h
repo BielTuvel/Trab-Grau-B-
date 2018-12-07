@@ -19,16 +19,11 @@ public:
 	void inicializar();
 	//void setPos(float x, float y);
 
-
 	float x, y;
 	float velocidade;
 	Sprite spr;
 	bool vivo;
 	int direcaoo;
-
-
-
-
 
 };
 
