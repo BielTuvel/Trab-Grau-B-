@@ -13,12 +13,20 @@ Tiro::~Tiro()
 
 int Tiro::getX()
 {
-	return x;
+	if (vivo)
+	{
+		return x;
+	}
+	
 }
 
 int Tiro::getY()
 {
-	return y;
+	if (vivo)
+	{
+		return y;
+	}
+	
 }
 
 bool Tiro::getVivo()

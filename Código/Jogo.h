@@ -18,8 +18,9 @@ public:
 
 private:
 
+	//Carregador de Assests e um Objeto do tipo Menu
 	CarregadorDeAssets * carregaAssets;
-	Menu * menuzao;
+	Menu * Tela;
 	
 };
 

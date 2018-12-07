@@ -12,25 +12,25 @@ Jogo::~Jogo()
 
 void Jogo::inicializar()
 {
-	uniInicializar(600, 451, false, "Airplane");
-	//Carregando a fonte, coloca lá no carregador pra nós Felipe, é isto.
+	uniInicializar(600, 451, false, "Space Destruction");
+	
+	//Carregando as fontes
 	gRecursos.carregarFonte("Score", "assets/fontes/fonte_padrao.ttf", 32);
+	gRecursos.carregarFonte("Login", "assets/fontes/loginFont.ttf", 16);
+	
 
-	menuzao = new Menu();
+	Tela = new Menu();
 	carregaAssets = new CarregadorDeAssets();
 	//carrega os assets do jogo
 	carregaAssets->testeSeCarregou();
 	//inicializa o menu
-	menuzao->inicializar_asset();
-
-
-
-	
+	Tela->inicializar_asset();
 }
 
 void Jogo::finalizar()
 {
 	carregaAssets->destroiTodosAseets();
+	Tela->finalizarMenu();
 	uniFinalizar();
 }
 
@@ -41,6 +41,6 @@ void Jogo::executar()
 		uniIniciarFrame();
 		uniTerminarFrame();
 		//atualiza tela atual a cada frame
-		menuzao->atualizarTelaAtual();
+		Tela->atualizarTelaAtual();
 	}
 }

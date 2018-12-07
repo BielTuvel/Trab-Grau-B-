@@ -1,15 +1,11 @@
 #include "CarregadorDeAssets.h"
 
-
-
 CarregadorDeAssets::CarregadorDeAssets()
 {
 }
 
-
 CarregadorDeAssets::~CarregadorDeAssets()
 {
-	
 }
 
 bool CarregadorDeAssets::carregaTodosAssets(std::fstream & ArquivoRecursos)
@@ -45,6 +41,7 @@ bool CarregadorDeAssets::carregaTodosAssets(std::fstream & ArquivoRecursos)
 					gDebug.erro("Não carregou recurso");
 					return false;
 				}
+				
 			}
 
 
@@ -52,8 +49,7 @@ bool CarregadorDeAssets::carregaTodosAssets(std::fstream & ArquivoRecursos)
 	}
 	return true;
 
-	/*gRecursos.carregarSpriteSheet("Mapa", "assets/mapa/anal.png", 1, 1);
-	gRecursos.carregarSpriteSheet("Nave", "assets/spritesheets/char.png", 1, 3);*/
+	
 }
 
 void CarregadorDeAssets::destroiTodosAseets()
@@ -62,7 +58,16 @@ void CarregadorDeAssets::destroiTodosAseets()
 	gRecursos.descarregar("Nave");
 	gRecursos.descarregar("Inimigo1");
 	gRecursos.descarregar("tiro");
-
+	gRecursos.descarregar("fundoMenu");
+	gRecursos.descarregar("logo");
+	gRecursos.descarregar("carregar");
+	gRecursos.descarregar("start");
+	gRecursos.descarregar("ranking");
+	gRecursos.descarregar("creditos");
+	gRecursos.descarregar("sair");
+	gRecursos.descarregar("cadastrar");
+	gRecursos.descarregar("logar");
+	gRecursos.descarregar("Boss");
 }
 
 void CarregadorDeAssets::testeSeCarregou()
